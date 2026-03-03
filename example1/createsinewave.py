@@ -1,6 +1,5 @@
 import numpy as np
 import pylab as plt
-import lenstronomy
 import scienceplots
 plt.style.use(['science', 'ieee', 'bright'])
 
