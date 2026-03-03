@@ -1,5 +1,4 @@
 import numpy as np
-import pylab as plt
 import nolds
 
 def get_meaning_of_life(steps=1000):
