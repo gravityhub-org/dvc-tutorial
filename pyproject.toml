@@ -1,0 +1,10 @@
+[project]
+name = "dvc-tutorial"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "nolds>=0.6.3",
+    "numpy>=2.4.2",
+]
