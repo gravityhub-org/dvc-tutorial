@@ -1,6 +1,8 @@
 import numpy as np
+import time
 
 def get_meaning_of_life(steps=1000):
+    time.sleep(10)
     return 42
 
 meaning_of_life = get_meaning_of_life()
