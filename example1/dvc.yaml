@@ -1,0 +1,7 @@
+stages:
+  createmeaningoflife:
+    cmd: uv run meaningoflifesimple.py
+    deps:
+    - meaningoflifesimple.py
+    outs:
+    - meaning_of_life.txt
