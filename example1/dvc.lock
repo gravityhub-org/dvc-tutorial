@@ -5,8 +5,8 @@ stages:
     deps:
     - path: meaningoflifesimple.py
       hash: md5
-      md5: 2df2c5574715679a386070c7f9bc45dc
-      size: 362
+      md5: 040d8d6d0488db5a5d599a0a9561c314
+      size: 393
     outs:
     - path: meaning_of_life.txt
       hash: md5
@@ -38,5 +38,5 @@ stages:
     outs:
     - path: meaning_of_life_sine_wave.pdf
       hash: md5
-      md5: d669012d5672f3682c78045eea1a27b3
+      md5: 0b6ee10bdecd3d8ae11023d037f6cb03
       size: 82961
