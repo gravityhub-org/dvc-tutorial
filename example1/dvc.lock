@@ -12,3 +12,15 @@ stages:
       hash: md5
       md5: 50a2fabfdd276f573ff97ace8b11c5f4
       size: 3
+  copyfile:
+    cmd: cp meaning_of_life.txt meaning_of_life_copy.txt
+    deps:
+    - path: meaning_of_life.txt
+      hash: md5
+      md5: 50a2fabfdd276f573ff97ace8b11c5f4
+      size: 3
+    outs:
+    - path: meaning_of_life_copy.txt
+      hash: md5
+      md5: 50a2fabfdd276f573ff97ace8b11c5f4
+      size: 3

@@ -5,3 +5,9 @@ stages:
     - meaningoflifesimple.py
     outs:
     - meaning_of_life.txt
+  copyfile:
+    cmd: cp meaning_of_life.txt meaning_of_life_copy.txt
+    deps:
+    - meaning_of_life.txt
+    outs:
+    - meaning_of_life_copy.txt
