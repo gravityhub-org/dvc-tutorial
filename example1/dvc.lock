@@ -24,3 +24,19 @@ stages:
       hash: md5
       md5: 50a2fabfdd276f573ff97ace8b11c5f4
       size: 3
+  createmeaningoflifesinewave:
+    cmd: uv run createsinewave.py
+    deps:
+    - path: createsinewave.py
+      hash: md5
+      md5: 949ef60b4992e09b13de1d209248480a
+      size: 644
+    - path: meaning_of_life_copy.txt
+      hash: md5
+      md5: 50a2fabfdd276f573ff97ace8b11c5f4
+      size: 3
+    outs:
+    - path: meaning_of_life_sine_wave.pdf
+      hash: md5
+      md5: f49dded82b712358b9d169bb1cf126c9
+      size: 82961
