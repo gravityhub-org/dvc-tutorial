@@ -11,3 +11,10 @@ stages:
     - meaning_of_life.txt
     outs:
     - meaning_of_life_copy.txt
+  createmeaningoflifesinewave:
+    cmd: uv run createsinewave.py
+    deps:
+    - createsinewave.py
+    - meaning_of_life_copy.txt
+    outs:
+    - meaning_of_life_sine_wave.pdf
